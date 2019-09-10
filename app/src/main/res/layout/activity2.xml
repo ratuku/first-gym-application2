@@ -1,0 +1,29 @@
+<androidx.wear.widget.drawer.WearableDrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/nalj"
+    tools:context="com.jogrind.gymapplication.SecondActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/viewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.wear.widget.drawer.WearableNavigationDrawerView
+        android:id="@+id/nav_View"
+        android:layout_width="25pt"
+        android:layout_height="20pt"
+        android:layout_gravity="start"
+        android:theme="@style/CardView.Dark" />
+
+
+
+</androidx.wear.widget.drawer.WearableDrawerLayout>
